@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>1st web page</title>
+   
+</head>
+<body>
+    <h1>this is a h1 tag.</h1>
+    <h2>this is a h2 tag..</h2>
+    <h3>this is a h3 tag...</h3>
+    <br>
+    <hr>
+    <p>this is my first web page of first day of the encircle...</p>
+    <p>and my next task is the how to create a bold tag in html</p>
+</body>
+</html>
