@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>page 2 </title>
+   
+</head>
+<body>
+    <p><b>HTML</b>, short for <strong>HyperText Markup Language</strong>, is the foundation of the web. It's a <i> markup language</i> used to structure and organize <u> web pages, defining how text, images, and multimedia content</u> are displayed in a web browser. </p>
+    <h2>order list</h2>
+    <ol>
+        <li type="1st">
+            kush
+        </li>
+        <li type="1st">
+            luv
+        </li>
+    </ol>
+
+    <h2>Unorder list</h2>
+    <ul>
+        <li type="round">
+            kush
+        </li>
+        <li type="circle">
+            luv
+        </li>
+    </ul>
+
+    <a href="https://gemini.google.com/" target="_blank">gemini</a>
+    <a href="https://google.com/" target="_self">google</a>
+    <a href="https://www.w3schools.com/" target="_top">w3schools </a>
+</body>
+</html>
