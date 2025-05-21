@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>table-form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <h1>table demo</h1>
+    <table border="1" style="margin: auto;">
+        <thead>
+            <tr style="background-color: rgb(172, 197, 128);">
+                <td >time</td>
+                <td>monday</td>
+                <td>tuesday</td>
+                <td>wednesday</td>
+                <td>thrusday</td>
+                <td>friday</td>
+                <td>saturday</td>
+                <td>sunday</td>
+            </tr>
+        </thead>
+        <tbody style="background-color: rgb(95, 128, 114);">
+            <tr>
+                <td>10:30</td>
+                <td>eng</td>
+                <td>guj</td>
+                <td>hindi</td>
+                <td>eng</td>
+                <td>guj</td>
+                <td colspan="2" rowspan="5" align="center">holiday</td>
+            </tr>
+            <tr >
+                <td >11:30</td>
+                <td>math</td>
+                <td>sci</td>
+                <td>eng</td>
+                <td>math</td>
+                <td>sci</td>
+            </tr>
+            <tr>
+                <td>12:30</td>
+                <td>comp</td>
+                <td>math</td>
+                <td>guj</td>
+                <td>comp</td>
+                <td>eng</td>
+            </tr>
+            <tr>
+                <td>1:30</td>
+                <td>hindi</td>
+                <td>eng</td>
+                <td>sci</td>
+                <td>guj</td>
+                <td>math</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h1>form demo</h1>
+
+    <form>
+
+        <div>
+            <label for="idno">ID No:</label>
+            <input type="number" id="idno" required>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+       
+        <div>
+            <label for="emial">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" cols="19" rows="4"> </textarea>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gen" id="gender" value="male">male
+            <input type="radio" name="gen" id="gender" value="female">female
+        </div>
+        <div>
+            <input style="background-color: beige;" type="submit" value="submit">
+            <input style="background-color: beige;" type="reset" value="refresh">
+        </div>
+    </form>
+
+</body>
+
+</html>
